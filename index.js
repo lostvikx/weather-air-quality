@@ -15,7 +15,7 @@ app.use(express.json({
   type: "application/json"
 }));
 
-const HOST = process.env.HOST || "::1" || "localhost";
+const HOST = process.env.HOST || "0.0.0.0" || "::1" || "localhost";
 
 app.listen(PORT, HOST, () => console.log(`listening on port http://${HOST}:${PORT}/`));
 
