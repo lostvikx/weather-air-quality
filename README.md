@@ -1,8 +1,10 @@
 # Weather & Air Quality
 
+This project is hosted on Heroku, here is the [link](https://weather-and-air-quality.herokuapp.com/).
+
 This project took quite a while to build, along the way I discovered various caching strategies which are implemented on front-end, web-browsers, and back-end, proxy servers.
 
-This project was made possible by a number of diffrent JavaScript libraries and public APIs.
+This project was made possible by multiple diffrent JavaScript libraries and public APIs.
 * Leaflet.js
 * Express.js
 * [OpenWeatherMap](https://openweathermap.org/)
